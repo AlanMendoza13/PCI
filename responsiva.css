@@ -1,0 +1,57 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 4 feb 2023, 20:54:27
+    Author     : DELL
+*/
+
+@media screen and (max-width: 980px){
+    #contenedor{
+        width: 90%;
+    }
+    #contenido{
+        width: 60%;
+    }
+    #barra_lateral{
+        width:30%;
+    }
+}
+@media screen and (max-width: 480px){
+    #encabezado{
+        height: auto;
+    }
+    #contenido{
+        width: auto;
+    }
+    #barra_lateral{
+        display:none;
+    }
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+header{
+    /* Enable flex mode. */
+        display: flex; 
+        
+        /* Spread out the elements inside the header. */
+        justify-content: space-between;
+
+        /* Align items vertically in the center. */
+        align-items: center;
+}
+section{
+   .column {
+  width: 100%;
+}
+
+
+}
+@media (min-width: 600px) {
+  .column {
+    width: 50%;
+  }
+}
